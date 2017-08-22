@@ -13,8 +13,8 @@ Test cases include:
 [Case 9: Image brightness decrease on clicking btn_brightness_low button](#case-9)  
 [Case 10: Image scaling](#case-10)  
 [Case 11: History](#case-11)  
-[Case 12: Switching between languages](#case-12)
-
+[Case 12: Switching between languages](#case-12)  
+[Case 13: Minimap interaction](#case-13)
 ### Case 1
 **Labeling Process**
 
@@ -60,7 +60,7 @@ Test cases include:
 4.4. left click on the 300, 300 pixel of the image  
 5. Select object class “class 1”  
 6. Make sure “is occluded” boolean parameter is NOT checked  
-7. Select “Hand” tool  
+7. `-` // Removed in the releases after 1.4 
 8. Left click on the image on (120, 120) point  
 9. Uncheck “is occluded” boolean parameter  
 10. Left click on the image on (320, 320) point  
@@ -127,7 +127,7 @@ Test cases include:
 7.4. left click on the 50, 50 pixel of the image  
 8. Select object class “class 1”  
 9. Check “is occluded” boolean parameter  
-10. Select “Hand” tool  
+10. `-` // Removed in the releases after 1.4 
 11. Left click on the image on (320, 320) point  
 12. Click [Delete] button  
 11. Left click on the image on (55, 55) point  
@@ -238,7 +238,7 @@ Test cases include:
 10.3. left click on the 400, 300 pixel of the image  
 10.4. left click on the 300, 300 pixel of the image  
 11. Check that historyRow4 DOM element exists and contains a string “Polygon was added and assigned an id 1”  
-12. Select “Hand” tool  
+12. `-` // Removed in the releases after 1.4 
 13. Left click on the image on (105, 120) point  
 14. Click [Delete] button  
 15. Check that historyRow5 DOM element exists and contains a string “Polygon with id 0 was deleted”  
@@ -285,7 +285,7 @@ Test cases include:
 48. Compare returned JSON markup to 
 `[{\"points\":[[300,300],[300,400],[400,300]],\"parameters\":{}}]`
 49. Check that #delete-row DOM element does not contain class “disabled”  
-50. Left click on the image on (305, 320) point // “Hand” tool is still selected at this point  
+50. Left click on the image on (305, 320) point  
 51. Select object class “class 1”  
 52. Check that historyRow6 DOM element exists and contains a string “Class of polygon 1 was changed to class 1”  
 53. Compare returned JSON markup to 
@@ -319,3 +319,12 @@ Test cases include:
 16. Check that #label-parameters-block-title DOM element contains a string returned by language.english().labelParameters  
 17. Check that #history-block-title DOM element contains a string returned by language.english().history
 18. Check that historyRow0 DOM element exists and contains a string returned by language.english().polygonWasAddedAndAssignedAnId
+
+### Case 13
+**Minimap interaction**
+
+1. Click zoom in to scale an image so even the small image is not able to fit the main canvas
+2. Find the current value of the main canvas scroll
+3. Click on the minimap      
+4. Find a new value of main canvas scroll 
+5. Check if scroll value has changed after click on the minimap

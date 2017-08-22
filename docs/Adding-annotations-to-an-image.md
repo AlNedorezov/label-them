@@ -41,4 +41,6 @@ To select a region of an image you need to
 
 <!-- [![annotation_params.png](https://s23.postimg.org/uixt1d83f/annotation_params.png)](https://postimg.org/image/6ryfj97w7/) -->
 
-6. You can edit these params later by selecting a Hand tool from the panel on the left and selecting a polygon of interest
+6. You can edit these parameters later by selecting a polygon of interest by clicking on it.
+
+**HINT:** you can delete selected polygon by pressing a DELETE or a BACKSPACE key.

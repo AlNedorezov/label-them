@@ -369,8 +369,7 @@ The resulting table is presented below:
 * Python or/and JavaScript should be used on the backend
 * The system should work in [Chromium Browser](http://www.chromium.org/Home) (ver. 55+)
 * Systems users are supposed to have a computer mouse with at least two buttons and a "wheel"
-* The system should be implemented as both a stand-alone application, 
-and as a [Yandex.Toloka](https://toloka.yandex.ru/en)-hosted and integrated system
+* The system should be implemented as a [Yandex.Toloka](https://toloka.yandex.ru/en)-hosted and integrated system
 
 ### Business Constraints
 

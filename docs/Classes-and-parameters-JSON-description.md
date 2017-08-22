@@ -14,6 +14,15 @@ The structure of that JSON file is described below.
         "class 2",
         "class N"
       ],
+
+      //OPTIONAL
+      "colors":
+      {
+        "class 0":"#468966",
+        "class 1":"#FFF0A5",
+        "class 2":"#FFB03B",
+        "class N":"#B64926"
+      },  
     
       "parameters":
       [
@@ -70,3 +79,9 @@ Select parameters are represented by drop-down menus as one on the image below:
 
 ![Screenshot of a select parameter on GUI of the system
    v0.2](https://s18.postimg.org/vyscm7wi1/select_v0.2.png)
+
+## Configuring class colors
+
+To make annotating easier we provide the ability to specify colors for each class. To do so, create a new dict in classesandparams.json and specify a color for each class in HEX format. Note that providing colors is optional and if no colors were supplied, the default color scheme will be used. The default color scheme can be located in [color_scheme.js](link_to_color_scheme_after_merge) file. 
+
+The example configuration is shown above and marked with OPTIONAL comment. 
