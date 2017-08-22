@@ -20,7 +20,7 @@ Newest version of *LabelThem* source files, compatible with Yandex.Toloka crowds
 
 If you are only interested in using the system for getting a markup, you can skip the following text and go
 to the instructions on [how to start working with *LabelThem* system on Yandex.Toloka](
-https://github.com/innosoft-pro/label-them/wiki/Getting-started-YandexToloka).
+https://alnedorezov.github.io/label-them/Getting-started-YandexToloka).
 
 ## System Prerequisites
 
@@ -46,4 +46,4 @@ The source files that are needed to run the system on Yandex Toloka crowdsourcin
 3) `/build/css/concat.min.css`
 
 Instructions on **how to start working with *LabelThem* system on Yandex.Toloka** can be found on 
-[the corresponding wiki page](https://github.com/innosoft-pro/label-them/wiki/Getting-started-YandexToloka).
+[the corresponding GitHub page](https://alnedorezov.github.io/label-them/Getting-started-YandexToloka).
