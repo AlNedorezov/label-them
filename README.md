@@ -12,8 +12,8 @@ images by yourself, a short description of which types of objects you are intere
 Mechanical Turks for performed markup.
 
 ## Important Notice
-At the moment *LabelThem* works  only with [Yandex.Toloka crowdsourcing system](https://toloka.yandex.ru/) in 
-[Chromium ](http://www.chromium.org/Home) and [Chrome](https://www.google.ru/chrome) web browsers.
+At the moment *LabelThem* works with [Yandex.Toloka crowdsourcing system](https://toloka.yandex.ru/) in 
+[Chromium](http://www.chromium.org/Home), [Chrome](https://www.google.ru/chrome), and [FireFox](https://www.mozilla.org/en-US/firefox/) web browsers.
 
 Newest version of *LabelThem* source files, compatible with Yandex.Toloka crowdsourcing platform are located in 
 `develop-toloka` branch.
