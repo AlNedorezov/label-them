@@ -31,15 +31,15 @@ There are two types of users in Yandex Toloka - Performers and Crowdsourcers. Pe
 Now since you have an account on Toloka it is time to create the task and deploy LabelThem.
 
 1. Click on "Create project":
-[![new_prj.png](https://s9.postimg.org/sxozsj6cf/new_prj.png)](https://postimg.org/image/8qbk088uz/)
+[![new_prj.png](https://user-images.githubusercontent.com/2508992/59834045-f7c39400-934f-11e9-861e-93da926c2703.png)](https://user-images.githubusercontent.com/2508992/59834045-f7c39400-934f-11e9-861e-93da926c2703.png)
 
 2. In the template selection view, scroll to the bottom and select Blank:
-[![blank_prj.png](https://s22.postimg.org/hytu6nfqp/blank_prj.png)](https://postimg.org/image/6z8mv1pbh/)
+[![blank_prj.png](https://user-images.githubusercontent.com/2508992/59834088-0f028180-9350-11e9-9dd7-587187ecadcf.png)](https://user-images.githubusercontent.com/2508992/59834088-0f028180-9350-11e9-9dd7-587187ecadcf.png)
 
 3. Select a name for you project and add a description. **HINT:** Try adding a short guideline to make your project more user-friendly
 
 4. Now, scroll down to the "SPECIFICATIONS" section and click on the angular brackets icon:
-[![brackets.png](https://s10.postimg.org/q966j9c49/brackets.png)](https://postimg.org/image/cfhtu7jit/)
+[![brackets.png](https://user-images.githubusercontent.com/2508992/59834259-5b4dc180-9350-11e9-81f4-203b2c0b4363.png)](https://user-images.githubusercontent.com/2508992/59834259-5b4dc180-9350-11e9-81f4-203b2c0b4363.png)
 
 5. Paste the following code into "Input Data" field:
 ```javascript
@@ -72,13 +72,13 @@ Now since you have an account on Toloka it is time to create the task and deploy
 
 **NOTE:** If you want to get latest commited features and bugfixes, you can retrieve systems source code from the `develop-toloka` branch, and generate source files for Yandex.Toloka on your own. For the instructions on this process, please refer [to this guide](https://github.com/innosoft-pro/label-them/wiki/Generating-source-files-for-YandexToloka).
 
-[![html.png](https://s28.postimg.org/6kbz4q7wt/html.png)](https://postimg.org/image/agpb0psw9/)
+[![html.png](https://user-images.githubusercontent.com/2508992/59834310-791b2680-9350-11e9-9b89-5655885f43a3.png)](https://user-images.githubusercontent.com/2508992/59834310-791b2680-9350-11e9-9b89-5655885f43a3.png)
 
 8. Similarly, replace the contents of ```js``` field with the contents of ```app.js``` file located in ```PROJECT_ROOT\build``` folder and the contents of ```css``` field with the contents of ```concat.min.css``` located in ```PROJECT_ROOT\build\css``` folder
 
 9. If you click on preview, you should see something similar:
-[![toloka_preview.png](https://s8.postimg.org/sljr2z98l/toloka_preview.png)](https://postimg.org/image/dcttp7fk1/)
-Don't worry about empty blocks and absence of images - we will fix this later.
+[![toloka_preview.png](https://user-images.githubusercontent.com/2508992/59834379-994ae580-9350-11e9-907a-33fb73e79898.png)](https://user-images.githubusercontent.com/2508992/59834379-994ae580-9350-11e9-907a-33fb73e79898.png)
+Don't worry about empty blocks and absence of images - we will fix this with later steps.
 
 10. Click save at the bottom of the page
 
@@ -96,7 +96,7 @@ The next step is to connect Yandex Disk where your data will be hosted.
 
 4. Click on "Add proxy" and fill in all necessary fields:
 
-[![add_proxy.png](https://s12.postimg.org/leadhu799/add_proxy.png)](https://postimg.org/image/s4qur9uex/)
+[![add_proxy.png](https://user-images.githubusercontent.com/2508992/59834463-b67fb400-9350-11e9-813b-4025c751e286.png)](https://user-images.githubusercontent.com/2508992/59834463-b67fb400-9350-11e9-813b-4025c751e286.png)
 
 **Unique Name** will be used later in TSV generation, so take a note of it.
 
@@ -104,7 +104,7 @@ The next step is to connect Yandex Disk where your data will be hosted.
 
 5. Click save and make sure that a folder with a given name was created on Yandex Disk
 
-[![disk_folder.png](https://s17.postimg.org/an6b079xb/disk_folder.png)](https://postimg.org/image/6qsz47oxn/)
+[![disk_folder.png](https://user-images.githubusercontent.com/2508992/59834519-cf886500-9350-11e9-8e82-dad156dfa5de.png)](https://user-images.githubusercontent.com/2508992/59834519-cf886500-9350-11e9-8e82-dad156dfa5de.png)
 
 6. Upload your data to the newly created folder. Keep in mind that this folder **should not contain any subfolders**
 
@@ -118,11 +118,11 @@ The next step is to [add a new pool](#adding-a-pool)
 
 3. Select "Add Pool":
 
-[![add_pool.png](https://s7.postimg.org/nmkfz575n/add_pool.png)](https://postimg.org/image/3ryed0rxz/)
+[![add_pool.png](https://user-images.githubusercontent.com/2508992/59834588-e8911600-9350-11e9-916c-4382ab3a8cbf.png)](https://user-images.githubusercontent.com/2508992/59834588-e8911600-9350-11e9-916c-4382ab3a8cbf.png)
 
 4. Here you can specify name and description for your pool and configure parameters. Key parameters are **price per task** and **time on a single task**. Leave "Training" and "Level Required" empty
 
-[![pool_cong.png](https://s15.postimg.org/7lqp3vgor/pool_cong.png)](https://postimg.org/image/8b9hg8h87/)
+[![pool_cong.png](https://user-images.githubusercontent.com/2508992/59834655-ff376d00-9350-11e9-93d5-cfafa6c4f1ad.png)](https://user-images.githubusercontent.com/2508992/59834655-ff376d00-9350-11e9-93d5-cfafa6c4f1ad.png)
 
 5. Finally, configure Speed/Quality trade-off by dragging slider to the left (more speed) or to the right (more users)
 
@@ -146,7 +146,7 @@ Next, we will walk you through the process of setting up the tsv file and upload
 
 For the script to work, you need to supply a few parameters: path to the data (may be relative, must point to the folder (on your local machine) that you uploaded to Yandex Toloka. All of this folders content will be specified in a generated `.tsv` file), path to json with params (also may be relative) (the structure of the json with classes and parameters is described [on "Classes and parameters JSON description" wiki page](https://github.com/innosoft-pro/label-them/wiki/Classes-and-parameters-JSON-description)) and id of the folder that you created in Yandex Toloka. The first two params are straightforward, however, the last one is generated by connecting Yandex Disk to Toloka. If you forgot the id of your folder, navigate to [profile](https://toloka.yandex.ru/en/requester/profile) and click on External Services Integration. Find a ```Proxy list``` section and select the id that you generated:
 
-[![toloka_id.png](https://s24.postimg.org/u4et4ofk5/toloka_id.png)](https://postimg.org/image/l9dyu5qrl/)
+[![toloka_id.png](https://user-images.githubusercontent.com/2508992/59834707-18401e00-9351-11e9-971f-c3f7b65401b3.png)](https://user-images.githubusercontent.com/2508992/59834707-18401e00-9351-11e9-971f-c3f7b65401b3.png)
 
 **Keep in mind, that don't need the whole string, only the highlighted part!**
 
@@ -162,17 +162,17 @@ This script will generate a ```tasks.tsv``` file in the folder from which it was
 
 4. In the pool viwe, click on Upload
 
-[![ul_task_2.png](https://s4.postimg.org/gkn51slsd/ul_task_2.png)](https://postimg.org/image/qupk11bnt/)
+[![ul_task_2.png](https://user-images.githubusercontent.com/2508992/59834750-3148cf00-9351-11e9-8c3a-7edde71ea93c.png)](https://user-images.githubusercontent.com/2508992/59834750-3148cf00-9351-11e9-8c3a-7edde71ea93c.png)
 
 5. In the pop-up menu select Set Manually and specify 1 task per page
 
-[![ul_task_1.png](https://s11.postimg.org/4xiel63nn/ul_task_1.png)](https://postimg.org/image/vvcbmwoan/)
+[![ul_task_1.png](https://user-images.githubusercontent.com/2508992/59834805-4aea1680-9351-11e9-8417-1d4ed80bd0d3.png)](https://user-images.githubusercontent.com/2508992/59834805-4aea1680-9351-11e9-8417-1d4ed80bd0d3.png)
 
 6. The task will be uploaded to Yandex Toloka. To verify that everything works, click on Preview button and make sure that you images and params are displayed correctly:
 
 **NOTE:** you cannot add annotations while in preview mode!
 
-[![pool_preview.png](https://s17.postimg.org/cfe90r8ov/pool_preview.png)](https://postimg.org/image/bpvgoe857/)
+[![pool_preview.png](https://user-images.githubusercontent.com/2508992/59834862-66edb800-9351-11e9-9cd6-7b84043d61c7.png)](https://user-images.githubusercontent.com/2508992/59834862-66edb800-9351-11e9-9cd6-7b84043d61c7.png)
 
 7. Now you are ready to run your first task! Simply click on Play button in the pool view and your task will be available to users in Yandex Toloka!
 
