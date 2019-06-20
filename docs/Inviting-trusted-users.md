@@ -18,13 +18,13 @@ Follow these steps to invite trusted users:
 
 2. Click on [Add trusted users](https://sandbox.toloka.yandex.ru/en/requester/workers/authorized)
 
-[![Yandex_Toloka.png](https://s30.postimg.org/gd9h04ytd/Yandex_Toloka.png)](https://postimg.org/image/wo9kwgbb1/)
+[![Yandex_Toloka.png](https://user-images.githubusercontent.com/2508992/59835175-e8454a80-9351-11e9-8d1b-9d900434f7d0.png)](https://user-images.githubusercontent.com/2508992/59835175-e8454a80-9351-11e9-8d1b-9d900434f7d0.png)
 
 3. Click on "Add user" in the upper right corner
 
 4. Type a user's login and hit Add. User's login is a username with which they registered in the Toloka System. See the note below for more info.
 
-[![add_trusted_user.png](https://s14.postimg.org/lu7u9wuht/add_trusted_user.png)](https://postimg.org/image/ta73vpi71/)
+[![add_trusted_user.png](https://user-images.githubusercontent.com/2508992/59835251-ff843800-9351-11e9-84b4-be2b1d7b968f.png)](https://user-images.githubusercontent.com/2508992/59835251-ff843800-9351-11e9-84b4-be2b1d7b968f.png)
 
 **NOTE:** Most of the users use Yandex accounts to register within the system, but it is also possible to use login via other social networks. If you can register using other social networks that provide not only your name and email address, but also a login, then this login could be used to invite trusted users.
 
