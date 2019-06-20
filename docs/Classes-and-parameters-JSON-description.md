@@ -54,31 +54,31 @@ On the systems GUI (as of version 0.2) users can find  configured classes and pa
 of objects in the "Label Parameters block", which is accentuated with a red rounded rectangle 
 on the image below.
 ![Screenshot of the system v0.2 with accentuated label parameters
- block](https://s18.postimg.org/o8lkh2u6h/system_v0.2_with_accentuated_label_parameters_bl.png)
+ block](https://user-images.githubusercontent.com/2508992/59833685-49b7ea00-934f-11e9-8344-43bc37e3c04f.png)
 
 Classes are represented by a drop-down menu.
 
-![Screenshot of classes on GUI of the system v0.2](https://s18.postimg.org/gamk1orih/objects_classes_v0.2.png)
+![Screenshot of classes on GUI of the system v0.2](https://user-images.githubusercontent.com/2508992/59833713-5f2d1400-934f-11e9-9c3f-a17a489e25d4.png)
 
 Unfolded drop-down menu with objects classes looks as on the image below:
 
 ![Screenshot of unfolded classes on GUI of the system
- v0.2](https://s18.postimg.org/3kmx2c8y1/objects_classes_v0.2_unfolded_menu.png)
+ v0.2](https://user-images.githubusercontent.com/2508992/59833779-7835c500-934f-11e9-9767-e14f92de3f8d.png)
 
 Boolean parameters are represented by checkboxes as one on the image below:
 
 ![Screenshot of a boolean parameter on GUI of the system
-   v0.2](https://s18.postimg.org/8tdcmh1zd/boolean_v0.2.png)
+   v0.2](https://user-images.githubusercontent.com/2508992/59833816-8b489500-934f-11e9-9dc0-a43b98a9c0fd.png)
 
 String parameters are represented by input blocks as one on the image below:
 
 ![Screenshot of a string parameter on GUI of the system
-   v0.2](https://s18.postimg.org/4cpl1jd55/string_v0.2.png)
+   v0.2](https://user-images.githubusercontent.com/2508992/59833874-a1565580-934f-11e9-8dc2-9afc0f64c278.png)
    
 Select parameters are represented by drop-down menus as one on the image below:
 
 ![Screenshot of a select parameter on GUI of the system
-   v0.2](https://s18.postimg.org/vyscm7wi1/select_v0.2.png)
+   v0.2](https://user-images.githubusercontent.com/2508992/59833912-b8954300-934f-11e9-9e90-dfe2bf2b621c.png)
 
 ## Configuring class colors
 
