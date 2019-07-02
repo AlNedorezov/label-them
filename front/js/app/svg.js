@@ -13,9 +13,7 @@ var currentScale = 1;
 
 function initSvg() {
     svgImg = document.getElementById("svg_img");
-    /*global initCoordinates*/
-    /*eslint no-undef: "error"*/
-    initCoordinates(svgImg);
+
 }
 
 function svgImgCancelPolygon() {

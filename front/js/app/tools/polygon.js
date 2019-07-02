@@ -13,6 +13,9 @@ function initPolygon() {
     }
 
     function handleKeydown(event) {
+        if (event.key === 'Escape') {
+            svgImgCancelPolygon()
+        }
         if ((event.ctrlKey || event.metaKey) && event.keyCode === 90) {
             if (event.shiftKey) {
                 redoLastPoint();
