@@ -92,7 +92,7 @@ The next step is to connect Yandex Disk where your data will be hosted.
 
 2. Open "External Services Integration"
 
-3. Click on "Connect Yandex Disk" (Need to add screenshots, I cannot do this since I have already connected). You will be taked to the confirmation window.
+3. Click on "Connect Yandex Disk" (Need to add screenshots, I cannot do this since I have already connected). You will be taken to the confirmation window.
 
 4. Click on "Add proxy" and fill in all necessary fields:
 
