@@ -59,8 +59,8 @@ function onMinimapClick(e) {
  * @fires drawFOV
  */
 function onScroll() {
-    let scrollLeftMax = getScrollLeftMax();
-    let scrollTopMax = getScrollTopMax();
+    let scrollLeftMax = getScrollLeftMax() || 1;
+    let scrollTopMax = getScrollTopMax() || 1;
     let ratioX = canvasParent.scrollLeft() / scrollLeftMax;
     let ratioY = canvasParent.scrollTop() / scrollTopMax;
     drawFOV(ratioX, ratioY);
